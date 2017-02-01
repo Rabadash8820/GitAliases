@@ -1,0 +1,21 @@
+	stap = pull --rebase=true --autostash
+	ch = checkout
+	chstap = !"f() { git checkout $1; git pull --rebase=true --autostash; }; f"
+	c = commit
+	ca = commit --all
+	cm = commit --message
+	cam = commit --all --message
+	csq = commit --no-edit --squash
+	f = fetch
+	unstage = reset HEAD --
+	logn = log --oneline -n
+	rb = rebase
+	rbsq = rebase -i --autosquash
+	m = merge
+	mnf = merge --no-ff
+	b = branch
+	ba = branch --all
+	bd = branch --delete
+	bv = branch --verbose
+	bvv = branch -vv
+
