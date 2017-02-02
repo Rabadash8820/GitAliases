@@ -19,4 +19,6 @@
 	bd = branch --delete
 	bv = branch --verbose
 	bvv = branch -vv
+    	aa = add -A
+	aas = !"f() { git add -A; git status; }; f"
 
