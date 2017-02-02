@@ -6,6 +6,7 @@
 	cm = commit --message
 	cam = commit --all --message
 	csq = commit --no-edit --squash
+	casq = commit --all --no-edit --squash
 	f = fetch
 	unstage = reset HEAD --
 	logn = log --oneline -n
