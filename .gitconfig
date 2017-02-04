@@ -1,5 +1,6 @@
 	stap = pull --rebase=true --autostash
 	ch = checkout
+  	chb = checkout -b
 	chstap = !"f() { git checkout $1; git pull --rebase=true --autostash; }; f"
 	c = commit
 	ca = commit --all
