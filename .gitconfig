@@ -11,7 +11,8 @@
 	unstage = reset HEAD --
 	logn = log --oneline -n
 	rb = rebase
-	rbsq = rebase -i --autosquash
+  	rbi = rebase --interactive
+	rbsq = rebase --interactive --autosquash
 	m = merge
 	mnf = merge --no-ff
 	b = branch
