@@ -30,6 +30,7 @@
 	rbsq = rebase --interactive --autosquash
 	rs = reset --soft
 	rh = reset --hard
+	s = status
 	sa = stash apply
 	sc = stash clear
 	sd = stash drop
