@@ -13,6 +13,7 @@
 	casq = commit --all --no-edit --squash
 	ch = checkout
   	chb = checkout -b
+	chm = checkout master
 	chstap = !"f() { git checkout $1; git pull --rebase=true --autostash; }; f"
 	f = fetch
 	logn = log --oneline -n
