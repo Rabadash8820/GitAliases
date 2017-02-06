@@ -21,6 +21,8 @@
 	rb = rebase
   	rbi = rebase --interactive
 	rbsq = rebase --interactive --autosquash
+	rs = reset --soft
+	rh = reset --hard
 	sa = stash apply
 	sc = stash clear
 	sd = stash drop
