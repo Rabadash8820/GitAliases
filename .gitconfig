@@ -21,5 +21,14 @@
 	rb = rebase
   	rbi = rebase --interactive
 	rbsq = rebase --interactive --autosquash
+	sa = stash apply
+	sc = stash clear
+	sd = stash drop
+	sp = stash pop
+	sl = stash list
+	ss = stash save
+	sski = stash save --keep-index
+	ssnki = stash save --no-keep-index
+	ssu = stash save --include-untracked
 	stap = pull --rebase=true --autostash
 	unstage = reset HEAD --
