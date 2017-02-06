@@ -18,6 +18,7 @@
 	f = fetch
 	logn = log --oneline -n
 	m = merge
+	mm = merge master
 	mnf = merge --no-ff
 	pd = push --delete
 	pf = push --force
