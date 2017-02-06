@@ -1,26 +1,25 @@
-	stap = pull --rebase=true --autostash
-	ch = checkout
-  	chb = checkout -b
-	chstap = !"f() { git checkout $1; git pull --rebase=true --autostash; }; f"
+	aa = add -A
+	aas = !"f() { git add -A; git status; }; f"
+	b = branch
+	ba = branch --all
+	bd = branch --delete
+	bv = branch --verbose
+	bvv = branch -vv
 	c = commit
 	ca = commit --all
 	cm = commit --message
 	cam = commit --all --message
 	csq = commit --no-edit --squash
 	casq = commit --all --no-edit --squash
+	ch = checkout
+  	chb = checkout -b
+	chstap = !"f() { git checkout $1; git pull --rebase=true --autostash; }; f"
 	f = fetch
-	unstage = reset HEAD --
 	logn = log --oneline -n
+	m = merge
+	mnf = merge --no-ff
 	rb = rebase
   	rbi = rebase --interactive
 	rbsq = rebase --interactive --autosquash
-	m = merge
-	mnf = merge --no-ff
-	b = branch
-	ba = branch --all
-	bd = branch --delete
-	bv = branch --verbose
-	bvv = branch -vv
-    	aa = add -A
-	aas = !"f() { git add -A; git status; }; f"
-
+	stap = pull --rebase=true --autostash
+	unstage = reset HEAD --
