@@ -18,6 +18,12 @@
 	logn = log --oneline -n
 	m = merge
 	mnf = merge --no-ff
+	pd = push --delete
+	pf = push --force
+	pu = push --set-upstream
+	pp = pull --prune
+	pr = pull --rebase=true
+	pt = pull --tags
 	rb = rebase
   	rbi = rebase --interactive
 	rbsq = rebase --interactive --autosquash
