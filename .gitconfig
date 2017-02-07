@@ -3,6 +3,7 @@
 	b = branch
 	ba = branch --all
 	bd = branch --delete
+	bl = branch --list
 	bv = branch --verbose
 	bvv = branch -vv
 	c = commit
