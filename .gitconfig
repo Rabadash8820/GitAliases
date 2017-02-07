@@ -42,4 +42,3 @@
 	sski = stash save --keep-index
 	ssnki = stash save --no-keep-index
 	ssu = stash save --include-untracked
-	unstage = reset HEAD --
