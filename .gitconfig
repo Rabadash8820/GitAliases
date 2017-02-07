@@ -14,7 +14,7 @@
 	ch = checkout
   	chb = checkout -b
 	chm = checkout master
-	chstap = !"f() { git checkout $1; git pull --rebase=true --autostash; }; f"
+	chps = !"f() { git checkout $1; git pull --rebase=true --autostash; }; f"
 	f = fetch
 	logn = log --oneline -n
 	m = merge
@@ -25,6 +25,7 @@
 	pu = push --set-upstream
 	pp = pull --prune
 	pr = pull --rebase=true
+	ps = pull --rebase=true --autostash
 	pt = pull --tags
 	rb = rebase
   	rbi = rebase --interactive
@@ -41,5 +42,4 @@
 	sski = stash save --keep-index
 	ssnki = stash save --no-keep-index
 	ssu = stash save --include-untracked
-	stap = pull --rebase=true --autostash
 	unstage = reset HEAD --
