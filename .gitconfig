@@ -1,3 +1,4 @@
+	a = add
 	aa = add -A
 	aas = !"f() { git add -A; git status; }; f"
 	b = branch
