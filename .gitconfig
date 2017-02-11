@@ -19,6 +19,7 @@
 	f = fetch
 	logn = log --oneline -n
 	m = merge
+	ma = merge --abort
 	mm = merge master
 	mnf = merge --no-ff
 	pd = push --delete
@@ -29,6 +30,7 @@
 	ps = pull --rebase=true --autostash
 	pt = pull --tags
 	rb = rebase
+	rba = rebase --abort
   	rbi = rebase --interactive
 	rbsq = rebase --interactive --autosquash
 	rs = reset --soft
