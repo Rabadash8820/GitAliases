@@ -5,6 +5,7 @@
 	ba = branch --all
 	bd = branch --delete
 	bl = branch --list
+    	bu = branch --set-upstream-to
 	bv = branch --verbose
 	bvv = branch -vv
 	c = commit
