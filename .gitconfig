@@ -18,6 +18,7 @@
   	chb = checkout -b
 	chm = checkout master
 	chps = !"f() { git checkout $1; git pull --rebase=true --autostash; }; f"
+	d = diff
 	f = fetch
 	logn = log --oneline -n
 	m = merge
