@@ -1,5 +1,6 @@
 	a = add
 	aa = add -A
+  	ap = add --patch
 	aas = !"f() { git add -A; git status; }; f"
 	b = branch
 	ba = branch --all
