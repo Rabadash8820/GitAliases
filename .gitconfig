@@ -32,6 +32,7 @@
 	pr = pull --rebase=true
 	ps = pull --rebase=true --autostash
 	pt = pull --tags
+	r = reset
 	rb = rebase
 	rba = rebase --abort
   	rbi = rebase --interactive
