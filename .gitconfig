@@ -39,6 +39,7 @@
 	d = diff
 	f = fetch
     	fh = fetch -h
+	fp = fetch --prune
 	logn = log --oneline -n
 	m = merge
 	ma = merge --abort
