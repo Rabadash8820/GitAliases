@@ -60,6 +60,7 @@ Below are some useful git aliases for any repo.  To use, simply paste the aliase
   r = reset  
   rb = rebase  
   rba = rebase --abort  
+  rbc = rebase --continue
   rbh = rebase -h  
   rbi = rebase --interactive  
   rbsq = rebase --interactive --autosquash  
