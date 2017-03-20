@@ -76,4 +76,9 @@ Below are some useful git aliases for any repo.  To use, simply paste the aliase
   ss = stash save  
   sski = stash save --keep-index  
   ssnki = stash save --no-keep-index  
-  ssu = stash save --include-untracked  
+  ssu = stash save --include-untracked
+  ta = tag --annotate
+	tam = !"f() { set -x; git tag --annotate $1 --message \"$2\"; }; f"
+  td = tag --delete
+  th = tag -h
+  tl = tag --list
