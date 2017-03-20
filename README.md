@@ -1,5 +1,5 @@
 # GitAliases
-Below are some useful git aliases for any repo.  To use, simply paste the aliases below into a .gitconfig file, after the `[alias]` line.  You must have whitespace (tabs or spaces) before each alias.  For best results, you should paste into the _global_ .gitconfig file (located at "C:\Users\<UserName>\.gitconfig" on Windows 7, 8, and 10 machines), and not just into repository .gitconfig files.
+Below are some useful git aliases for any repo.  To use, simply paste the aliases below into a .gitconfig file, after the `[alias]` line.  You must have whitespace (tabs or spaces) before each alias.  None of these aliases conflict, so you can use as many or as few of them as you like.  For best results, you should paste into the _global_ .gitconfig file (located at "C:\Users\<UserName>\.gitconfig" on Windows 7, 8, and 10 machines), and not just into repository .gitconfig files.
 
 
   a = add  
