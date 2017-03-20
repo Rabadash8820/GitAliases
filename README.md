@@ -53,10 +53,11 @@ Below are some useful git aliases for any repo.  To use, simply paste the aliase
   pd = push --delete  
   pf = push --force  
   pu = push --set-upstream  
+  pst = push --tags
   pp = pull --prune  
   pr = pull --rebase=true  
   ps = pull --rebase=true --autostash  
-  pt = pull --tags  
+  plt = pull --tags  
   r = reset  
   rb = rebase  
   rba = rebase --abort  
