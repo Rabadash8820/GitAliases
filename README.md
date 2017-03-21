@@ -63,13 +63,13 @@ Below are some useful git aliases for any repo.  To use, simply paste the aliase
   plr = pull --rebase=true  
   pls = pull --rebase=true --autostash  
   plt = pull --tags  
-  r = reset  
   rb = rebase  
   rba = rebase --abort  
   rbc = rebase --continue
   rbh = rebase -h  
   rbi = rebase --interactive  
   rbsq = rebase --interactive --autosquash  
+  r = reset  
   rs = reset --soft  
   rh = reset --hard  
   s = status  
