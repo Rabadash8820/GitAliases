@@ -33,7 +33,7 @@ Below are some useful git aliases for any repo.  To use, simply paste the aliase
   cogra = !"f() { git config --global --get-regexp alias | sed 's|alias.||'; }; f"  
   cogg = config --global --get  
   cogga = !"f() { git config --global --get alias.$1; }; f"  
-  coh = config -h
+  coh = config -h  
   cogl = config --global --list  
   col = config --local  
   colr = !"f() { git config --local --get-regexp $1 | sed 's|'$1'.||'; }; f"  
@@ -51,21 +51,21 @@ Below are some useful git aliases for any repo.  To use, simply paste the aliase
   mh = merge -h  
   mm = merge master  
   mnf = merge --no-ff  
-  psa = push --all
+  psa = push --all  
   psd = push --delete  
-  psh = push -h
+  psh = push -h  
   psf = push --force  
   pst = push --tags  
   psu = push --set-upstream  
   pla = pull --all  
-  plh = pull -h
+  plh = pull -h  
   plp = pull --prune  
   plr = pull --rebase=true  
   pls = pull --rebase=true --autostash  
   plt = pull --tags  
   rb = rebase  
   rba = rebase --abort  
-  rbc = rebase --continue
+  rbc = rebase --continue  
   rbh = rebase -h  
   rbi = rebase --interactive  
   rbsq = rebase --interactive --autosquash  
