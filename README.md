@@ -51,12 +51,14 @@ Below are some useful git aliases for any repo.  To use, simply paste the aliase
   mh = merge -h  
   mm = merge master  
   mnf = merge --no-ff  
+  ps = push  
   psa = push --all  
   psd = push --delete  
   psh = push -h  
   psf = push --force  
   pst = push --tags  
   psu = push --set-upstream  
+  pl = pull  
   pla = pull --all  
   plh = pull -h  
   plp = pull --prune  
