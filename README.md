@@ -1,5 +1,7 @@
 # GitAliases
-Below are some useful git aliases for any repo.  To use, simply paste the aliases below into a .gitconfig file, after the `[alias]` line.  You must have whitespace (tabs or spaces) before each alias.  None of these aliases conflict, so you can use as many or as few of them as you like.  For best results, you should paste into the _global_ .gitconfig file (located at "C:\Users\<UserName>\.gitconfig" on Windows 7, 8, and 10 machines), and not just into repository .gitconfig files.
+Below are some useful git aliases for any repo.  To use, simply paste the aliases below into a .gitconfig file, after the `[alias]` line.  You must have whitespace (tabs or spaces) before each alias.  None of these aliases conflict, so you can use as many or as few of them as you like.  For best results, you should paste into the _global_ .gitconfig file (located at "C:\Users\<UserName>\.gitconfig" on Windows 7, 8, and 10 machines), and not just into repository .gitconfig files.  
+
+Note that aliases are meant to be copied _from this README screen_.  Several characters have been escaped in the actual Markdown file so that they will display (and copy) correctly from here.  If you instead copy these aliases while editing the file, you will get the actual character _and_ the escape character, so use caution!
 
 
   a = add  
@@ -86,7 +88,7 @@ Below are some useful git aliases for any repo.  To use, simply paste the aliase
   ssnki = stash save --no-keep-index  
   ssu = stash save --include-untracked  
   ta = tag --annotate  
-  tam = !"f() { set -x; git tag --annotate $1 --message \"$2\"; }; f"  
+  tam = !"f() { git tag --annotate $1 --message \\"$2\\"; }; f"  
   td = tag --delete  
   th = tag -h  
   tl = tag --list  
