@@ -58,6 +58,7 @@ Note that aliases are meant to be copied _from this README screen_.  Several cha
   psd = push --delete  
   psh = push -h  
   psf = push --force  
+  psp = push --prune  
   pst = push --tags  
   psu = push --set-upstream  
   pl = pull  
