@@ -73,6 +73,7 @@ Note that aliases are meant to be copied _from this README screen_.  Several cha
   rbh = rebase -h  
   rbi = rebase --interactive  
   rbsq = rebase --interactive --autosquash  
+  rbsqs = rebase --interactive --autosquash --autostash  
   r = reset  
   rs = reset --soft  
   rh = reset --hard  
