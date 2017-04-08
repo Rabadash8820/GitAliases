@@ -75,9 +75,10 @@
   rbi = rebase --interactive
   rbsq = rebase --interactive --autosquash
   rbsqs = rebase --interactive --autosquash --autostash
-  r = reset
-  rs = reset --soft
-  rh = reset --hard
+  rs = reset
+  rsh = reset --hard
+  rsm = reset --mixed
+  rss = reset --soft
   s = status
   sa = stash apply
   sb = stash branch
