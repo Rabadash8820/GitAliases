@@ -13,3 +13,6 @@ There are three primary ways to get these aliases onto your own machine:
   path = /path/to/your/clone/aliases.txt
 ```
 where `path` is the absolue path to aliases.txt, using forward slashes ("/").  This method allows you to have a .gitconfig that is always up-to-date with this repository with minimal effort, and you can `[include]` aliases.txt in as many other .gitconfig files as you want.  Whenever we update this repository's .gitconfig, you can just `git pull` to get the updated aliases in every one of your .gitconfig files, rather than locating the changes and copying/creating them yourself.  Note, though, that this method will give you _all_ of the aliases, rather than just the few that you might actually want.  
+
+## Contribute
+If there are any aliases missing from this repository that you think should be added, please suggest them by filing an [Issue](https://github.com/DanwareCreations/GitAliases/issues/new?title=Add%20Alias%20For%20&lt;insert%20command%20here&gt;).
