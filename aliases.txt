@@ -13,6 +13,11 @@
   bu = branch --set-upstream-to
   bv = branch --verbose
   bvv = branch -vv
+  cl = clone
+  clb = clone --bare
+  clbr = clone --branch
+  clh = clone -h
+  clo = clone --origin
   cm = commit
   cma = commit --all
   cmh = commit -h
