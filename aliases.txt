@@ -75,6 +75,15 @@
   rbi = rebase --interactive
   rbsq = rebase --interactive --autosquash
   rbsqs = rebase --interactive --autosquash --autostash
+  rma = remote add
+  rmh = remote -h
+  rmp = remote prune
+  rmrn = remote rename
+  rmrv = remote remove
+  rmu = remote set-url
+  rmua = remote set-url --add
+  rmud = remote set-url --delete
+  rmv = remote --verbose
   rs = reset
   rsh = reset --hard
   rsm = reset --mixed
