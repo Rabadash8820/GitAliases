@@ -79,6 +79,7 @@
   rsh = reset --hard
   rsm = reset --mixed
   rss = reset --soft
+  rv = revert
   s = status
   sa = stash apply
   sb = stash branch
