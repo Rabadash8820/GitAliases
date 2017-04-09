@@ -1,0 +1,8 @@
+[alias]
+  rb = rebase
+  rba = rebase --abort
+  rbc = rebase --continue
+  rbh = rebase -h
+  rbi = rebase --interactive
+  rbsq = rebase --interactive --autosquash
+  rbsqs = rebase --interactive --autosquash --autostash

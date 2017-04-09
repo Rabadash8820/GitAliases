@@ -1,0 +1,9 @@
+[alias]
+  ps = push
+  psa = push --all
+  psd = push --delete
+  psh = push -h
+  psf = push --force
+  psp = push --prune
+  pst = push --tags
+  psu = push --set-upstream

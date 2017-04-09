@@ -1,0 +1,6 @@
+[alias]
+  m = merge
+  ma = merge --abort
+  mh = merge -h
+  mm = merge master
+  mnf = merge --no-ff

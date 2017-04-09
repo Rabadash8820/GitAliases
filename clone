@@ -1,0 +1,6 @@
+[alias]  
+  cl = clone
+  clb = clone --bare
+  clbr = clone --branch
+  clh = clone -h
+  clo = clone --origin

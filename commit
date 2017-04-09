@@ -1,0 +1,8 @@
+[alias]
+  cm = commit
+  cma = commit --all
+  cmh = commit -h
+  cmm = commit --message
+  cmam = commit --all --message
+  cmsq = commit --no-edit --squash
+  cmasq = commit --all --no-edit --squash

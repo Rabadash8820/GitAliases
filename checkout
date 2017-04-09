@@ -1,0 +1,10 @@
+[alias]
+  ch = checkout
+  chb = checkout -b
+  chd = checkout dev
+  chf = checkout --force
+  chh = checkout -h
+  chm = checkout master
+  cho = checkout --orphan
+  cht = checkout --track
+  chps = !"f() { git checkout $1; git pull --rebase=true --autostash; }; f"

@@ -1,0 +1,6 @@
+[alias]
+  a = add
+  aa = add -A
+  ah = add -h
+  ap = add --patch
+  aas = !"f() { git add -A; git status; }; f"

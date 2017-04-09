@@ -1,0 +1,10 @@
+[alias]
+  rma = remote add
+  rmh = remote -h
+  rmp = remote prune
+  rmrn = remote rename
+  rmrv = remote remove
+  rmu = remote set-url
+  rmua = remote set-url --add
+  rmud = remote set-url --delete
+  rmv = remote --verbose

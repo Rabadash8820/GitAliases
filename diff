@@ -1,0 +1,3 @@
+[alias]
+  d = diff
+  dh = diff -h

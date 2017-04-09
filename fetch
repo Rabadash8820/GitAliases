@@ -1,0 +1,4 @@
+[alias]
+  f = fetch
+  fh = fetch -h
+  fp = fetch --prune

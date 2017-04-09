@@ -1,0 +1,8 @@
+[alias]
+  pl = pull
+  pla = pull --all
+  plh = pull -h
+  plp = pull --prune
+  plr = pull --rebase=true
+  pls = pull --rebase=true --autostash
+  plt = pull --tags
