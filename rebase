@@ -4,5 +4,6 @@
   rbc = rebase --continue
   rbh = rebase -h
   rbi = rebase --interactive
+  rbis = rebase --interactive --autostash
   rbsq = rebase --interactive --autosquash
   rbsqs = rebase --interactive --autosquash --autostash
