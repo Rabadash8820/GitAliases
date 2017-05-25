@@ -4,3 +4,4 @@
   clbr = clone --branch
   clh = clone -h
   clo = clone --origin
+  clr = clone --recursive
