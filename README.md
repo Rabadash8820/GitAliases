@@ -13,26 +13,26 @@ to include the `git checkout` aliases.  `path` must be an absolue path to an ali
 For reference, the following lines would include every alias file in this repository into your .gitconfig.  You can just paste this into your .gitconfig and remove any lines that you don't want.
 ```
 [include]
-  path = C:/path/to/GitAliases/add
-  path = C:/path/to/GitAliases/branch
-  path = C:/path/to/GitAliases/checkout
-  path = C:/path/to/GitAliases/clone
-  path = C:/path/to/GitAliases/commit
-  path = C:/path/to/GitAliases/config
-  path = C:/path/to/GitAliases/diff
-  path = C:/path/to/GitAliases/fetch
-  path = C:/path/to/GitAliases/help
-  path = C:/path/to/GitAliases/log
-  path = C:/path/to/GitAliases/merge
-  path = C:/path/to/GitAliases/pull
-  path = C:/path/to/GitAliases/push
-  path = C:/path/to/GitAliases/rebase
-  path = C:/path/to/GitAliases/remote
-  path = C:/path/to/GitAliases/reset
-  path = C:/path/to/GitAliases/revert
-  path = C:/path/to/GitAliases/stash
-  path = C:/path/to/GitAliases/status
-  path = C:/path/to/GitAliases/tag
+    path = C:/path/to/GitAliases/add
+    path = C:/path/to/GitAliases/branch
+    path = C:/path/to/GitAliases/checkout
+    path = C:/path/to/GitAliases/clone
+    path = C:/path/to/GitAliases/commit
+    path = C:/path/to/GitAliases/config
+    path = C:/path/to/GitAliases/diff
+    path = C:/path/to/GitAliases/fetch
+    path = C:/path/to/GitAliases/help
+    path = C:/path/to/GitAliases/log
+    path = C:/path/to/GitAliases/merge
+    path = C:/path/to/GitAliases/pull
+    path = C:/path/to/GitAliases/push
+    path = C:/path/to/GitAliases/rebase
+    path = C:/path/to/GitAliases/remote
+    path = C:/path/to/GitAliases/reset
+    path = C:/path/to/GitAliases/revert
+    path = C:/path/to/GitAliases/stash
+    path = C:/path/to/GitAliases/status
+    path = C:/path/to/GitAliases/tag
 ```
 
 ## Contribute
