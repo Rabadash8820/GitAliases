@@ -1,2 +1,4 @@
 [alias]
   s = status
+  si = status --ignored
+  sv = status --verbose
