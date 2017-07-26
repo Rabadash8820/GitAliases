@@ -7,4 +7,5 @@
   cmam = commit --all --message
   cmsq = commit --no-edit --squash
   cmasq = commit --all --no-edit --squash
+  cmo = commit --only
   cmp = commit --patch
