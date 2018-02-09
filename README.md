@@ -106,6 +106,7 @@ For reference, the following lines would include every alias file in this reposi
     
     # EXTENSION ALIASES
     path = C:/Danware/Other/GitAliases/extension-aliases/alias-config
+    path = C:/Danware/Other/GitAliases/extension-aliases/squash-commit
 ```
 
 ## Contributing

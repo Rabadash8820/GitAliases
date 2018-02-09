@@ -1,0 +1,2 @@
+[alias]
+  xsq = !"f() { commit=$(git rev-parse $1); git commit --no-edit --squash $commit; echo $commit^; git rebase --interactive --autostash --autosquash $commit^; }; f"
