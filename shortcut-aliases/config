@@ -1,0 +1,30 @@
+[alias]
+  cf = config
+  cfh = config -h
+
+  # Local aliases
+  cfl = config --local
+  cfla = config --local --add
+  cfle = config --local --edit
+  cfll = config --local --list
+  cflg = config --local --get
+  cflr = !"f() { git config --local --get-regexp $1 | sed 's|'$1'.||'; }; f"
+  cflua = config --local --unset
+
+  # Global aliases
+  cfg = config --global
+  cfga = config --global --add
+  cfge = config --global --edit
+  cfgl = config --global --list
+  cfgg = config --global --get
+  cfgr = !"f() { git config --global --get-regexp $1 | sed 's|'$1'.||'; }; f"
+  cfgu = config --global --unset
+
+  # System aliases
+  cfs = config --system
+  cfsa = config --system --add
+  cfse = config --system --edit
+  cfsl = config --system --list
+  cfsg = config --system --get
+  cfsr = !"f() { git config --system --get-regexp $1 | sed 's|'$1'.||'; }; f"
+  cfsu = config --system --unset

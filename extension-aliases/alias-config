@@ -1,0 +1,18 @@
+[alias]
+  # Aliases for working with Local aliases
+  xcflaa = !"f() { git config --local --add alias.$1; }; f"
+  xcflga = !"f() { git config --local --get alias.$1; }; f"
+  xcflra = !"f() { git config --local --get-regexp alias | sed 's|alias.||'; }; f"
+  xcflua = !"f() { git config --local --unset alias.$1; }; f"
+
+  # Aliases for working with Global aliases
+  xcfgaa = !"f() { git config --global --add alias.$1; }; f"
+  xcfgga = !"f() { git config --global --get alias.$1; }; f"
+  xcfgra = !"f() { git config --global --get-regexp alias | sed 's|alias.||'; }; f"
+  xcfgua = !"f() { git config --global --unset alias.$1; }; f"
+
+  # Aliases for working with System aliases
+  xcfsaa = !"f() { git config --system --add alias.$1; }; f"
+  xcfsga = !"f() { git config --system --get alias.$1; }; f"
+  xcfsra = !"f() { git config --system --get-regexp alias | sed 's|alias.||'; }; f"
+  xcfsua = !"f() { git config --system --unset alias.$1; }; f"
