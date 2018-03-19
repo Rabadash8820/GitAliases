@@ -7,4 +7,3 @@
   chm = checkout master
   cho = checkout --orphan
   cht = checkout --track
-  chps = !"f() { git checkout $1; git pull --rebase=true --autostash; }; f"
