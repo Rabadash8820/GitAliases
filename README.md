@@ -105,6 +105,7 @@ For reference, the following lines would include every alias file in this reposi
     path = C:/Danware/Other/GitAliases/shortcut-aliases/tag
     
     # EXTENSION ALIASES
+    path = C:/Danware/Other/GitAliases/extension-aliases/add-all-status
     path = C:/Danware/Other/GitAliases/extension-aliases/alias-config
     path = C:/Danware/Other/GitAliases/extension-aliases/checkout-push
     path = C:/Danware/Other/GitAliases/extension-aliases/squash-commit

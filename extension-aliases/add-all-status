@@ -1,0 +1,2 @@
+[alias]
+  xaas = !"f() { git add --all; git status; }; f"
