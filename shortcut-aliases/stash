@@ -1,11 +1,13 @@
 [alias]
-  sa = stash apply
-  sb = stash branch
-  sc = stash clear
-  sd = stash drop
-  sp = stash pop
-  sl = stash list
-  ss = stash save
-  sski = stash save --keep-index
-  ssnki = stash save --no-keep-index
-  ssu = stash save --include-untracked
+  st = stash
+  sta = stash apply
+  stb = stash branch
+  stc = stash clear
+  std = stash drop
+  sth = stash -h
+  stp = stash pop
+  stl = stash list
+  sts = stash save
+  stski = stash save --keep-index
+  stsnki = stash save --no-keep-index
+  stsu = stash save --include-untracked
