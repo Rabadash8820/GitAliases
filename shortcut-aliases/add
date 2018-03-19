@@ -3,3 +3,5 @@
   aa = add -A
   ah = add -h
   ap = add --patch
+  aq = add --quiet
+  av = add --verbose

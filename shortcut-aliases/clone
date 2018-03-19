@@ -4,4 +4,6 @@
   clbr = clone --branch
   clh = clone -h
   clo = clone --origin
+  clq = clone --quiet
   clr = clone --recursive
+  clv = clone --verbose

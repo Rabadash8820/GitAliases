@@ -5,5 +5,8 @@
   psh = push -h
   psf = push --force
   psp = push --prune
+  psq = push --quiet
   pst = push --tags
   psu = push --set-upstream
+  psv = push --verbose
+  

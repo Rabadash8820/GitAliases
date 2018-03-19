@@ -2,3 +2,5 @@
   f = fetch
   fh = fetch -h
   fp = fetch --prune
+  fq = fetch --quiet
+  fv = fetch --verbose

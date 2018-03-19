@@ -4,5 +4,8 @@
   plh = pull -h
   plp = pull --prune
   plr = pull --rebase=true
+  plq = pull --quiet
   pls = pull --rebase=true --autostash
   plt = pull --tags
+  plv = pull --verbose
+  

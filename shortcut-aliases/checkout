@@ -6,4 +6,6 @@
   chh = checkout -h
   chm = checkout master
   cho = checkout --orphan
+  chq = checkout --quiet
   cht = checkout --track
+  chv = checkout --verbose

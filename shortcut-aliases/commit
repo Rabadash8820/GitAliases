@@ -9,3 +9,6 @@
   cmasq = commit --all --no-edit --squash
   cmo = commit --only
   cmp = commit --patch
+  cmq = commit --quiet
+  cmv = commit --verbose
+  

@@ -5,3 +5,6 @@
   mh = merge -h
   mm = merge master
   mnf = merge --no-ff
+  mq = merge --quiet
+  mv = merge --verbose
+  
