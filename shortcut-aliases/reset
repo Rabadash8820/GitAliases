@@ -1,5 +1,6 @@
 [alias]
   rs = reset
-  rsh = reset --hard
+  rsh = reset -h
+  rshd = reset --hard     # So users don't accidentally type "h" expecting help!
   rsm = reset --mixed
   rss = reset --soft
