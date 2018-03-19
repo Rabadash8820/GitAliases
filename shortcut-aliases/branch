@@ -1,11 +1,14 @@
 [alias]  
   br = branch
   bra = branch --all
+  brc = branch --copy
+  brC = branch -C
   brd = branch --delete
   brD = branch -D
   brh = branch -h
   brl = branch --list
   brq = branch --quiet
+  brt = branch --track
   bru = branch --set-upstream-to
   brv = branch --verbose
   brvv = branch -vv

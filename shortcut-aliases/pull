@@ -3,6 +3,8 @@
   pla = pull --all
   plh = pull -h
   plp = pull --prune
+  plpr = pull --prune --rebase=true
+  plps = pull --prune --rebase=true --autostash
   plr = pull --rebase=true
   plq = pull --quiet
   pls = pull --rebase=true --autostash

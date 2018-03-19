@@ -6,6 +6,7 @@
   rbi = rebase --interactive
   rbq = rebase --quiet
   rbis = rebase --interactive --autostash
+  rbs = rebase --autostash
   rbsq = rebase --interactive --autosquash
   rbsqs = rebase --interactive --autosquash --autostash
   rbv = rebase --verbose

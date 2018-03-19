@@ -1,4 +1,8 @@
 [alias]
   rv = revert
+  rva = revert --abort
+  rvc = revert --continue
+  rve = revert --edit
   rvh = revert -h
+  rvn = revert --no-commit
   

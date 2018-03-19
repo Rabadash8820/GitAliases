@@ -2,5 +2,8 @@
   ta = tag --annotate
   tam = !"f() { git tag --annotate $1 --message \"$2\"; }; f"
   td = tag --delete
+  tf = tag --force
   th = tag -h
   tl = tag --list
+  ts = tag --sign
+  tv = tag --verify

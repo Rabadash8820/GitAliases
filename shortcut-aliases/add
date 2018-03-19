@@ -1,6 +1,6 @@
 [alias]
   a = add
-  aa = add -A
+  aa = add --all
   ah = add -h
   ap = add --patch
   aq = add --quiet

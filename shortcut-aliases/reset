@@ -2,6 +2,7 @@
   rs = reset
   rsh = reset -h
   rshd = reset --hard     # So users don't accidentally type "h" expecting help!
+  rsk = reset --keep
   rsm = reset --mixed
   rsq = reset --quiet
   rss = reset --soft

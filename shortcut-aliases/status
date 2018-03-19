@@ -1,4 +1,6 @@
 [alias]
   s = status
+  sb = status --branch
+  sh = status -h
   si = status --ignored
   sv = status --verbose

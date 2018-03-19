@@ -2,9 +2,12 @@
   m = merge
   ma = merge --abort
   mc = merge --continue
+  md = merge dev
+  me = merge --edit
   mh = merge -h
   mm = merge master
   mnf = merge --no-ff
   mq = merge --quiet
+  msq = merge --squash
   mv = merge --verbose
   
