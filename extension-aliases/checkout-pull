@@ -1,2 +1,2 @@
 [alias]
-  xchps = !"f() { git checkout $1; git pull --rebase=true --autostash; }; f"
+  xchpl = !"f() { git checkout $1; git pull --rebase=true --autostash; }; f"
