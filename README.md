@@ -13,7 +13,7 @@ We group our aliases into the two following types.
 These aliases simply abbreviate existing git commands/options to save some typing (e.g., `chb` in place of `checkout --branch`).  They use the following naming conventions:
 - One-two letters corresponding to the abbreviated git command (e.g., `a` for `add` or `rb` for `rebase`)
 - Each letter thereafter corresponds to an option of that command (e.g., `h` for `--help` or `q` for `--quiet`).  These letters usually match the corresponding single-letter token for that option (e.g., `h` matches `-h`).  You'll be amazed how much faster you can use Git just by not having to type that hyphen!  For long or multi-word option names, two or more letters may be used (e.g., `sq` for `rebase`'s `--autosquash`).
-- The option letters are ordered alphabetically by their *first* letter (e.g., `rebase --quiet --edit-todo` would become `rbetq` because "et" comes before "q")
+- The option letters are ordered alphabetically by their *first* letter (e.g., `rebase --autostash --interactive` would become `rbis` because "i" comes before "s")
 - Several Git commands already have really short names, in which case we only create aliases for those commands with their options.  For example, there is no alias for `git am`, but there is a `git amq` alias for `git am --quiet`.
 - Here are some of the most common Shortcut Aliases that we foresee devs using on a day-to-day basis:
   
@@ -83,10 +83,12 @@ For example, to include all `checkout` and `rebase` aliases, as well as our Exte
 Remember, none of the Git aliases in this repository conflict, so you can use as many or as few of them as you like!  Using `[include]` in this way, you can easily `[include]` these aliases in Git config files all over your file system.  Moreover, whenever this repository is updated, you can just `git pull` the changes and have them take instant effect, without having to locate all your .gitconfigs and copy the updated aliases yourself.
 
 For reference, the following lines would include every alias file in this repository into your Git config.  You can just paste this into your Git config, tweak the paths, and remove any lines that you don't want.  (The absolute paths used here are mainly for the benefit of our Danware contributors).
+
 ```
 [include]
     # SHORTCUT ALIASES
     path = C:/Danware/Other/GitAliases/shortcut-aliases/add
+    path = C:/Danware/Other/GitAliases/shortcut-aliases/am
     path = C:/Danware/Other/GitAliases/shortcut-aliases/branch
     path = C:/Danware/Other/GitAliases/shortcut-aliases/checkout
     path = C:/Danware/Other/GitAliases/shortcut-aliases/clone
@@ -103,10 +105,11 @@ For reference, the following lines would include every alias file in this reposi
     path = C:/Danware/Other/GitAliases/shortcut-aliases/remote
     path = C:/Danware/Other/GitAliases/shortcut-aliases/reset
     path = C:/Danware/Other/GitAliases/shortcut-aliases/revert
+    path = C:/Danware/Other/GitAliases/shortcut-aliases/rm
     path = C:/Danware/Other/GitAliases/shortcut-aliases/stash
     path = C:/Danware/Other/GitAliases/shortcut-aliases/status
     path = C:/Danware/Other/GitAliases/shortcut-aliases/tag
-    
+
     # EXTENSION ALIASES
     path = C:/Danware/Other/GitAliases/extension-aliases/add-all-status
     path = C:/Danware/Other/GitAliases/extension-aliases/alias-config

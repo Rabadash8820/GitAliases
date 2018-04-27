@@ -1,0 +1,13 @@
+[alias]
+  ama = am --abort
+  amc = am --scissors
+  amC = am -C
+  amh = am -h
+  ami = am --interactive
+  amk = am --keep
+  amm = am --message-id
+  amp = am -p
+  amq = am --quiet
+  amr = am --resolved
+  ams = am --signoff
+  amS = am --gpg-sign

@@ -1,0 +1,7 @@
+[alias]
+  rma = rdd --abort
+  rmc = rm --cached
+  rmf = rm --forced
+  rmh = rm -h
+  rmn = rm --dry-run
+  rmq = rm --quiet
