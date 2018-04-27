@@ -18,36 +18,37 @@ Here are some of the most common examples that we foresee devs using on a day-to
   
   - `i` for `init`
   - `rta` for `remote add`
+  - `rtv` for `remote --verbose`
   - `cl` for `clone`
-  - `clb` for `clone --branch`
+  - `clbr` for `clone --branch`
   - `ch` for `checkout`
   - `chb` for `checkout --branch`
   - `bru` for `branch --set-upstream-to`
+  - `brvv` for `branch -vv`
+  - `brd` for `branch -d`
   - `s` for `status`
+  - `d` for `diff`
   - `a` for `add`
   - `aa` for `add --all`
+  - `ap` for `add --patch`
   - `rs` for `reset`
   - `rsh` for `reset --hard`
   - `cm` for `commit`
   - `cmm` for `commit --message`
   - `cma` for `commit --all`
   - `m` for `merge`
-  - `ma` for `merge --abort`
   - `rb` for `rebase`
+  - `rba` for `rebase --abort`
   - `rbi` for `rebase --interactive`
   - `rv` for `revert`
   - `ps` for `push`
   - `psu` for `push --set-upstream`
   - `pl` for `pull`
   - `pla` for `pull --all` (not to be confused with `plap` for `pull --append`)
-  - `plp` for `pull --prune`
   - `plr` for `pull --rebase`
   - `rf` for `reflog`
   - `bl` for `blame`
-  - `cf` for `config`
-  - `cfl` for `config --local`
   - `cfg` for `config --global`
-  - `cfs` for `config --system`
 
 ### Extension Aliases
 
