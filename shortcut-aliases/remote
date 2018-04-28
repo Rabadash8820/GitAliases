@@ -1,10 +1,60 @@
 [alias]
+  rt = remote
   rta = remote add
+  rtav = remote --verbose add
+  rtaf = remote add --fetch
+  rtafv = remote --verbose add --fetch
+  rtah = remote add -h
+  rtam = remote add --master
+  rtamv = remote --verbose add --master
+  rtat = remote add --track
+  rtatv = remote --verbose add --track
+  rtah = remote add -h
+
+  rtgu = remote get-url
+  rtguv = remote --verbose get-url
+  rtgua = remote get-url --all
+  rtguav = remote --verbose get-url --all
+  rtgud = remote get-url --push
+  rtgudv = remote --verbose get-url --push
+  rtguh = remote get-url -h
+
   rth = remote -h
+
   rtp = remote prune
+  rtpv = remote --verbose prune
+  rtph = remote prune -h
+  rtpnv = remote prune --dry-run
+  rtpnv = remote --verbose prune --dry-run
+
   rtrn = remote rename
+  rtrnh = remote rename -h
+
   rtrm = remote remove
+  rtrmv = remote --verbose remove
+
+  rtsb = remote set-branches
+  rtsba = remote set-branches --add
+  rtsbav = remote --verbose set-branches --add
+  rtsbh = remote set-branches -h
+  rtsbv = remote --verbose set-branches
+
+  rtsh = remote set-head
+  rtsha = remote set-head --auto
+  rtshav = remote --verbose set-head --auto
+  rtshd = remote set-head --delete
+  rtshdv = remote --verbose set-head --delete
+  rtshh = remote set-head -h
+  rtshv = remote --verbose set-head
+
   rtsu = remote set-url
+  rtsuv = remote --verbose set-url
   rtsua = remote set-url --add
+  rtsuav = remote --verbose set-url --add
   rtsud = remote set-url --delete
+  rtsudv = remote --verbose set-url --delete
+  rtsuh = remote set-url -h
+  rtsup = remote set-url --push
+  rtsupv = remote --verbose set-url --push
+
   rtv = remote --verbose
