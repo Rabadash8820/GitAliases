@@ -1,0 +1,94 @@
+[alias]
+  lfse = lfs env
+  lfseh = lfs env -h
+
+  lfsch = lfs checkout
+  lfschh = lfs checkout -h
+
+  lfscl = lfs clone
+  lfsclh = lfs clone -h
+  lfscli = lfs clone -I
+  lfsclx = lfs clone -X
+
+  lfsf = lfs fetch
+  lfsfh = lfs fetch -h
+
+  lfsh = lfs -h
+
+  lfsi = lfs install
+  lfsif = lfs install --force
+  lfsih = lfs install -h
+  lfsil = lfs install --local
+  lfsim = lfs install --manual
+  lfsis = lfs install --system
+
+  lfslg = lfs logs
+  lfslgb = lfs logs boomtown
+  lfslgc = lfs logs clear
+  lfslgh = lfs logs -h
+
+
+  lfslk = lfs lock
+  lfslkh = lfs lock -h
+  lfslkr = lfs lock -r
+
+  lfsls = lfs ls-files
+  lfslsa = lfs ls-files --all
+  lfslsd = lfs ls-files --debug
+  lfslsh = lfs ls-files -h
+  lfslsi = lfs ls-files -I
+  lfslsl = lfs ls-files --long
+  lfslss = lfs ls-files --size
+  lfslsx = lfs ls-files -X
+
+
+  lfsm = lfs migrate
+  lfsmh = lfs migrate -h
+  lfsmI = lfs migrate -I
+  lfsmif = lfs migrate info
+  lfsmim = lfs migrate import
+  lfsmX = lfs migrate -X
+
+  lfspr = lfs prune
+  lfsprh = lfs prune -h
+  lfsprn = lfs prune --dry-run
+  lfsprv = lfs prune --verbose
+
+  lfspl = lfs pull
+  lfsplh = lfs pull -h
+  lfspli = lfs pull -I
+  lfsplx = lfs pull -X
+
+  lfsps = lfs push
+  lfspsa = lfs push --all
+  lfspsh = lfs push -h
+  lfspsn = lfs push --dry-run
+
+  lfss = lfs status
+  lfssh = lfs status -h
+
+  lfst = lfs track
+  lfsth = lfs track -h
+  lfstl = lfs track --lockable
+  lfstn = lfs track --dry-run
+  lfstv = lfs track --verbose
+
+  lfsui = lfs uninstall
+  lfsuih = lfs uninstall -h
+  lfsuil = lfs uninstall --local
+
+  lfsul = lfs unlock
+  lfsulf = lfs unlock --force
+  lfsulh = lfs unlock -h
+  lfsuli = lfs unlock -i
+  lfsulr = lfs unlock -r
+
+  lfsup = lfs update
+  lfsuph = lfs update -h
+  lfsupf = lfs update --force
+  lfsupm = lfs update --manual
+
+  lfsut = lfs untrack
+  lfsuth = lfs untrack -h
+
+  lfsv = lfs version

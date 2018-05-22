@@ -97,6 +97,7 @@ For reference, the following lines would include every alias file in this reposi
     path = C:/Danware/Other/GitAliases/shortcut-aliases/diff
     path = C:/Danware/Other/GitAliases/shortcut-aliases/fetch
     path = C:/Danware/Other/GitAliases/shortcut-aliases/help
+    path = C:/Danware/Other/GitAliases/shortcut-aliases/lfs
     path = C:/Danware/Other/GitAliases/shortcut-aliases/log
     path = C:/Danware/Other/GitAliases/shortcut-aliases/merge
     path = C:/Danware/Other/GitAliases/shortcut-aliases/pull
