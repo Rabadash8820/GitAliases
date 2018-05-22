@@ -100,6 +100,7 @@ For reference, the following lines would include every alias file in this reposi
     path = C:/Danware/Other/GitAliases/shortcut-aliases/lfs
     path = C:/Danware/Other/GitAliases/shortcut-aliases/log
     path = C:/Danware/Other/GitAliases/shortcut-aliases/merge
+    path = C:/Danware/Other/GitAliases/shortcut-aliases/prune
     path = C:/Danware/Other/GitAliases/shortcut-aliases/pull
     path = C:/Danware/Other/GitAliases/shortcut-aliases/push
     path = C:/Danware/Other/GitAliases/shortcut-aliases/rebase

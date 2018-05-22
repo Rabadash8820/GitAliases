@@ -1,0 +1,7 @@
+[alias]
+  pr = prune
+  pre = prune --expire
+  prh = prune -h
+  prn = prune --dry-run
+  prp = prune --progress
+  prv = prune --verbose
