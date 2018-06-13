@@ -9,4 +9,5 @@
   pst = push --tags
   psu = push --set-upstream
   psv = push --verbose
+  psau = push --all --set-upstream
   
