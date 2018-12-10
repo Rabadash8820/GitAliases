@@ -87,37 +87,37 @@ For reference, the following lines would include every alias file in this reposi
 ```
 [include]
     # SHORTCUT ALIASES
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/add
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/am
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/branch
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/checkout
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/clone
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/commit
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/config
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/diff
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/fetch
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/help
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/lfs
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/log
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/merge
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/prune
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/pull
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/push
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/rebase
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/remote
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/reset
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/revert
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/rm
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/stash
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/status
-    path = C:/Danware/Other/GitAliases/shortcut-aliases/tag
+    path = C:/Danware/GitAliases/shortcut-aliases/add
+    path = C:/Danware/GitAliases/shortcut-aliases/am
+    path = C:/Danware/GitAliases/shortcut-aliases/branch
+    path = C:/Danware/GitAliases/shortcut-aliases/checkout
+    path = C:/Danware/GitAliases/shortcut-aliases/clone
+    path = C:/Danware/GitAliases/shortcut-aliases/commit
+    path = C:/Danware/GitAliases/shortcut-aliases/config
+    path = C:/Danware/GitAliases/shortcut-aliases/diff
+    path = C:/Danware/GitAliases/shortcut-aliases/fetch
+    path = C:/Danware/GitAliases/shortcut-aliases/help
+    path = C:/Danware/GitAliases/shortcut-aliases/lfs
+    path = C:/Danware/GitAliases/shortcut-aliases/log
+    path = C:/Danware/GitAliases/shortcut-aliases/merge
+    path = C:/Danware/GitAliases/shortcut-aliases/prune
+    path = C:/Danware/GitAliases/shortcut-aliases/pull
+    path = C:/Danware/GitAliases/shortcut-aliases/push
+    path = C:/Danware/GitAliases/shortcut-aliases/rebase
+    path = C:/Danware/GitAliases/shortcut-aliases/remote
+    path = C:/Danware/GitAliases/shortcut-aliases/reset
+    path = C:/Danware/GitAliases/shortcut-aliases/revert
+    path = C:/Danware/GitAliases/shortcut-aliases/rm
+    path = C:/Danware/GitAliases/shortcut-aliases/stash
+    path = C:/Danware/GitAliases/shortcut-aliases/status
+    path = C:/Danware/GitAliases/shortcut-aliases/tag
 
     # EXTENSION ALIASES
-    path = C:/Danware/Other/GitAliases/extension-aliases/add-all-status
-    path = C:/Danware/Other/GitAliases/extension-aliases/alias-config
-    path = C:/Danware/Other/GitAliases/extension-aliases/checkout-push
-    path = C:/Danware/Other/GitAliases/extension-aliases/close-pull-request
-    path = C:/Danware/Other/GitAliases/extension-aliases/squash-commit
+    path = C:/Danware/GitAliases/extension-aliases/add-all-status
+    path = C:/Danware/GitAliases/extension-aliases/alias-config
+    path = C:/Danware/GitAliases/extension-aliases/checkout-push
+    path = C:/Danware/GitAliases/extension-aliases/close-pull-request
+    path = C:/Danware/GitAliases/extension-aliases/squash-commit
 ```
 
 ## Contributing
