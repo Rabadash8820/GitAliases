@@ -4,6 +4,9 @@
   mc = merge --continue
   md = merge dev
   me = merge --edit
+  mff = merge --ff
+  mffo = merge --ff-only
+  mgs = merge --gpg-sign
   mh = merge -h
   mm = merge master
   mnf = merge --no-ff

@@ -3,6 +3,8 @@
   cma = !"f() { git add --all && git commit }; f"
   cmam = !"f() { git add --all && git commit --message }; f"
   cmane = commit --amend --no-edit
+  cmaane = !"f() { git add --all && git commit --amend --no-edit }; f"
+  cmasq = !"f() { git add --all && git commit --no-edit --squash }; f"
   cmh = commit -h
   cmi = commit --include
   cmm = commit --message
