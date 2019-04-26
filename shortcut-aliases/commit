@@ -1,8 +1,8 @@
 [alias]
   cm = commit
-  cma = commit --all
-  cmam = commit --all --message
-  cmasq = commit --all --no-edit --squash
+  cma = !"f() { git add --all && git commit }; f"
+  cmam = !"f() { git add --all && git commit --message }; f"
+  cmane = commit --amend --no-edit
   cmh = commit -h
   cmi = commit --include
   cmm = commit --message
