@@ -1,4 +1,4 @@
-[alias]  
+[alias]
   cl = clone
   clb = clone --bare
   clbr = clone --branch

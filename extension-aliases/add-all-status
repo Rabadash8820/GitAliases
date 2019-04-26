@@ -1,2 +1,2 @@
 [alias]
-  xaas = !"f() { git add --all; git status; }; f"
+  xaas = !"f() { git add --all && git status; }; f"
