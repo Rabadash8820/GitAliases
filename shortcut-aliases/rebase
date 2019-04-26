@@ -2,6 +2,8 @@
   rb = rebase
   rba = rebase --abort
   rbc = rebase --continue
+  rbdate = rebase --committer-date-is-author-date
+  rbet = rebase --edit-todo
   rbh = rebase -h
   rbi = rebase --interactive
   rbq = rebase --quiet
