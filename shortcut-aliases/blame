@@ -1,0 +1,18 @@
+[alias]
+  bl = blame
+  bla = blame --abbrev
+  blb = blame -b
+  blc = blame -c
+  ble = blame --show-email
+  blf = blame --show-name
+  blh = blame -h
+  bli = blame --incremental
+  bll = blame -l
+  blm = blame --minimal
+  bln = blame --show-number
+  blp = blame --porcelain
+  blr = blame --root
+  bls = blame -s
+  bls = blame --show-stats
+  blt = blame -t
+  blw = blame -w

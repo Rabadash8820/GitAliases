@@ -1,0 +1,12 @@
+[alias]
+  ce = clean
+  ced = clean -d
+  cedf = clean -d --force
+  cee = clean --exclude
+  cef = clean --force
+  ceh = clean -h
+  cei = clean  --interactive
+  cen = clean --dry-run
+  ceq = clean --quiet
+  cex = clean -x
+  ceX = clean -X

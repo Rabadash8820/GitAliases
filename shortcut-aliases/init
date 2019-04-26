@@ -1,0 +1,9 @@
+[alias]
+  i = init
+  ib = init --bare
+  ibq = init --bare --quiet
+  ih = init -h
+  iq = init --quiet
+  is = init --shared
+  isgd = init --separate-git-dir
+  it = init --template

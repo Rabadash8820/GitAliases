@@ -1,0 +1,23 @@
+[alias]
+  bi = bisect
+  bib = bisect bad
+  big = bisect good
+  bil = bisect log
+  binw = bisect new
+  binx = bisect next
+  bio = bisect old
+  birn = bisect run
+  birs = bisect reset
+  birp = bisect replay
+  bisk = bisect skip
+  bist = bisect start
+  bisttb = bisect start --term-bad
+  bisttg = bisect start --term-good
+  bisttn = bisect start --term-new
+  bistnc = bisect start --no-checkout
+  bistto = bisect start --term-old
+  bit = bisect terms
+  bittb = bisect terms --term-bad
+  bittg = bisect terms --term-good
+  bivw = bisect view
+  bivz = bisect visualize

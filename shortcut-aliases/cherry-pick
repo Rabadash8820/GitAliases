@@ -1,0 +1,13 @@
+[alias]
+  cp = cherry-pick
+  cpa = cherry-pick --abort
+  cpc = cherry-pick --continue
+  cpe = cherry-pick --edit
+  cpff = cherry-pick --ff
+  cpgs = cherry-pick --gpg-sign
+  cph = cherry-pick -h
+  cpm = cherry-pick --mainline
+  cpn = cherry-pick --no-commit
+  cpq = cherry-pick --quit
+  cps = cherry-pick --signoff
+  cpx = cherry-pick -x

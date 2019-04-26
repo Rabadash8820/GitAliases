@@ -17,39 +17,44 @@ These aliases simply abbreviate existing git commands/options to save some typin
 - Several Git commands already have really short names, in which case we only create aliases for those commands with their options.  For example, there is no alias for `git am`, but there is a `git amq` alias for `git am --quiet`.
 - Here are some of the most common Shortcut Aliases that we foresee devs using on a day-to-day basis:
   
-  - `i` for `init`
-  - `rta` for `remote add`
-  - `rtv` for `remote --verbose`
-  - `cl` for `clone`
-  - `clbr` for `clone --branch`
-  - `ch` for `checkout`
-  - `chb` for `checkout --branch`
-  - `bru` for `branch --set-upstream-to`
-  - `brvv` for `branch -vv`
-  - `brd` for `branch -d`
-  - `s` for `status`
-  - `d` for `diff`
-  - `a` for `add`
-  - `aa` for `add --all`
-  - `ap` for `add --patch`
-  - `rs` for `reset`
-  - `rsh` for `reset --hard`
-  - `cm` for `commit`
-  - `cmm` for `commit --message`
-  - `cma` for `commit --all`
-  - `m` for `merge`
-  - `rb` for `rebase`
-  - `rba` for `rebase --abort`
-  - `rbi` for `rebase --interactive`
-  - `rv` for `revert`
-  - `ps` for `push`
-  - `psu` for `push --set-upstream`
-  - `pl` for `pull`
-  - `pla` for `pull --all` (not to be confused with `plap` for `pull --append`)
-  - `plr` for `pull --rebase`
-  - `rf` for `reflog`
-  - `bl` for `blame`
-  - `cfg` for `config --global`
+  - `i` -> `init`
+  - `rta` -> `remote add`
+  - `rtv` -> `remote --verbose`
+  - `cl` -> `clone`
+  - `clbr` -> `clone --branch`
+  - `ch` -> `checkout`
+  - `chb` -> `checkout --branch`
+  - `bru` -> `branch --set-upstream-to`
+  - `brvv` -> `branch -vv`
+  - `brd` -> `branch -d`
+  - `s` -> `status`
+  - `d` -> `diff`
+  - `a` -> `add`
+  - `aa` -> `add --all`
+  - `ap` -> `add --patch`
+  - `rs` -> `reset`
+  - `rshd` -> `reset --hard`
+  - `ce` -> `clean`
+  - `cedf` -> `clean -d --force`
+  - `cm` -> `commit`
+  - `cmm` -> `commit --message`
+  - `cma` -> `add --all && commit` (unlike `commit --all`, also commits untracked files)
+  - `m` -> `merge`
+  - `rb` -> `rebase`
+  - `rba` -> `rebase --abort`
+  - `rbi` -> `rebase --interactive`
+  - `cp` -> `cherry-pick`
+  - `bi` -> `bisect`
+  - `bl` -> `blame`
+  - `rv` -> `revert`
+  - `ps` -> `push`
+  - `psu` -> `push --set-upstream`
+  - `pl` -> `pull`
+  - `pla` -> `pull --all` (not to be confused with `plap` for `pull --append`)
+  - `plr` -> `pull --rebase`
+  - `rf` -> `reflog`
+  - `bl` -> `blame`
+  - `cfg` -> `config --global`
 
 ### Extension Aliases
 
@@ -89,14 +94,19 @@ For reference, the following lines would include every alias file in this reposi
     # SHORTCUT ALIASES
     path = C:/Danware/GitAliases/shortcut-aliases/add
     path = C:/Danware/GitAliases/shortcut-aliases/am
+    path = C:/Danware/GitAliases/shortcut-aliases/bisect
+    path = C:/Danware/GitAliases/shortcut-aliases/blame
     path = C:/Danware/GitAliases/shortcut-aliases/branch
     path = C:/Danware/GitAliases/shortcut-aliases/checkout
+    path = C:/Danware/GitAliases/shortcut-aliases/cherry-pick
+    path = C:/Danware/GitAliases/shortcut-aliases/clean
     path = C:/Danware/GitAliases/shortcut-aliases/clone
     path = C:/Danware/GitAliases/shortcut-aliases/commit
     path = C:/Danware/GitAliases/shortcut-aliases/config
     path = C:/Danware/GitAliases/shortcut-aliases/diff
     path = C:/Danware/GitAliases/shortcut-aliases/fetch
     path = C:/Danware/GitAliases/shortcut-aliases/help
+    path = C:/Danware/GitAliases/shortcut-aliases/init
     path = C:/Danware/GitAliases/shortcut-aliases/lfs
     path = C:/Danware/GitAliases/shortcut-aliases/log
     path = C:/Danware/GitAliases/shortcut-aliases/merge
