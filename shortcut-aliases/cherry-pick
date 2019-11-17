@@ -9,5 +9,6 @@
   cpm = cherry-pick --mainline
   cpn = cherry-pick --no-commit
   cpq = cherry-pick --quit
-  cps = cherry-pick --signoff
+  cpso = cherry-pick --signoff
+  cps = cherry-pick --skip
   cpx = cherry-pick -x

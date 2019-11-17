@@ -1,3 +1,5 @@
 [alias]
+  logh = log -h
+  logg = log --graph --all --decorate --oneline
   logn = log --oneline -n
   logq = log --quiet
