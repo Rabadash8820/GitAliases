@@ -2,13 +2,13 @@
 
 ## About
 
-This repository contains some Git aliases that are useful for any project, on any computer.  Our aliases are created with the following goals in mind:
+This repository contains some Git aliases that are useful for any project, on any computer.  These aliases are created with the following goals in mind:
 
 1. Save typing on day-to-day Git commands/options and on common, multi-command workflows
 2. Make it easy to predict an alias from the original Git commands/options, so that learning these aliases doesn't feel like re-learning the Git CLI.
 3. Stay similar to the original Git commands/options, so that one doesn't become too dependent on these aliases and forget the original Git commands/options.
 
-We group our aliases into the two following types.
+These aliases are grouped into the two following types.
 
 ### Shortcut Aliases
 
@@ -17,8 +17,8 @@ These aliases simply abbreviate existing git commands/options to save some typin
 - One-two letters corresponding to the abbreviated git command (e.g., `a` for `add` or `rb` for `rebase`)
 - Each letter thereafter corresponds to an option of that command (e.g., `h` for `--help` or `q` for `--quiet`).  These letters usually match the corresponding single-letter token for that option (e.g., `h` matches `-h`).  You'll be amazed how much faster you can use Git just by not having to type that hyphen!  For long or multi-word option names, two or more letters may be used (e.g., `sq` for `rebase`'s `--autosquash`).
 - The option letters are ordered alphabetically by their *first* letter (e.g., `rebase --autostash --interactive` would become `rbis` because "i" comes before "s")
-- Several Git commands already have really short names, in which case we only create aliases for those commands with their options.  For example, there is no alias for `git am`, but there is a `git amq` alias for `git am --quiet`.
-- Here are some of the most common Shortcut Aliases that we foresee devs using on a day-to-day basis:
+- Several Git commands already have really short names, in which case there are only aliases for those commands with their options.  For example, there is no alias for `git am`, but there is a `git amq` alias for `git am --quiet`.
+- Here are some of the most common Shortcut Aliases that devs will probably use on a day-to-day basis:
 
   - `i` -> `init`
   - `rta` -> `remote add`
@@ -80,7 +80,7 @@ Whichever config file you choose to modify, add a line for each set of aliases t
 
 Replace `{aliases}` with the actual paths to the aliases in this repo that you want to include.  All paths must be absolute path, not relaive, and must use forward slashes ("/"), **even on Windows machines**.  All Shortcut Aliases are placed in the [shortcut-aliases](shortcut-aliases/) folder, and all Extension Aliases are placed in the [extension-aliases](extension-aliases/) folder.  Shortcut Alias files are named according to the command that they abbreviate, such as [add](shortcut-aliases/add), [commit](shortcut-aliases/commit), or [merge](shortcut-aliases/merge), and contain all the aliases for that command.  The Extension Alias files are more disparate, usually with only one alias per file.
 
-For example, to include all `checkout` and `rebase` aliases, as well as our Extension Alias for rebasing after a `commit --squash`, you would add the following lines to your chosen Git config:
+For example, to include all `checkout` and `rebase` aliases, as well as the Extension Alias for rebasing after a `commit --squash`, you would add the following lines to your chosen Git config:
 
 ```ini
 [include]
@@ -89,49 +89,49 @@ For example, to include all `checkout` and `rebase` aliases, as well as our Exte
   path = C:/path/to/GitAliases/extension-aliases/squash-commit
 ```
 
-Remember, none of the Git aliases in this repository conflict, so you can use as many or as few of them as you like!  Using `[include]` in this way, you can easily `[include]` these aliases in Git config files all over your file system.  Moreover, whenever this repository is updated, you can just `git pull` the changes and have them take instant effect, without having to locate all your .gitconfigs and copy the updated aliases yourself.
+Remember, none of the Git aliases in this repository conflict, so you can use as many or as few of them as you like! Using `[include]` in this way, you can easily `[include]` these aliases in Git config files all over your file system. Moreover, whenever this repository is updated, you can just `git pull` the changes and have them take instant effect, without having to locate all your .gitconfigs and copy the updated aliases yourself.
 
-For reference, the following lines would include every alias file in this repository into your Git config.  You can just paste this into your Git config, tweak the paths, and remove any lines that you don't want.  (The absolute paths used here are mainly for the benefit of our Danware contributors).
+For reference, the following lines would include every alias file in this repository into your Git config. You can just paste this into your Git config, tweak the paths, and remove any lines that you don't want. (The absolute paths used here are mainly for my own benefit).
 
 ```ini
 [include]
     # SHORTCUT ALIASES
-    path = C:/Danware/GitAliases/shortcut-aliases/add
-    path = C:/Danware/GitAliases/shortcut-aliases/am
-    path = C:/Danware/GitAliases/shortcut-aliases/bisect
-    path = C:/Danware/GitAliases/shortcut-aliases/blame
-    path = C:/Danware/GitAliases/shortcut-aliases/branch
-    path = C:/Danware/GitAliases/shortcut-aliases/checkout
-    path = C:/Danware/GitAliases/shortcut-aliases/cherry-pick
-    path = C:/Danware/GitAliases/shortcut-aliases/clean
-    path = C:/Danware/GitAliases/shortcut-aliases/clone
-    path = C:/Danware/GitAliases/shortcut-aliases/commit
-    path = C:/Danware/GitAliases/shortcut-aliases/config
-    path = C:/Danware/GitAliases/shortcut-aliases/diff
-    path = C:/Danware/GitAliases/shortcut-aliases/fetch
-    path = C:/Danware/GitAliases/shortcut-aliases/help
-    path = C:/Danware/GitAliases/shortcut-aliases/init
-    path = C:/Danware/GitAliases/shortcut-aliases/lfs
-    path = C:/Danware/GitAliases/shortcut-aliases/log
-    path = C:/Danware/GitAliases/shortcut-aliases/merge
-    path = C:/Danware/GitAliases/shortcut-aliases/prune
-    path = C:/Danware/GitAliases/shortcut-aliases/pull
-    path = C:/Danware/GitAliases/shortcut-aliases/push
-    path = C:/Danware/GitAliases/shortcut-aliases/rebase
-    path = C:/Danware/GitAliases/shortcut-aliases/remote
-    path = C:/Danware/GitAliases/shortcut-aliases/reset
-    path = C:/Danware/GitAliases/shortcut-aliases/revert
-    path = C:/Danware/GitAliases/shortcut-aliases/rm
-    path = C:/Danware/GitAliases/shortcut-aliases/stash
-    path = C:/Danware/GitAliases/shortcut-aliases/status
-    path = C:/Danware/GitAliases/shortcut-aliases/tag
+    path = C:/Dan/GitAliases/shortcut-aliases/add
+    path = C:/Dan/GitAliases/shortcut-aliases/am
+    path = C:/Dan/GitAliases/shortcut-aliases/bisect
+    path = C:/Dan/GitAliases/shortcut-aliases/blame
+    path = C:/Dan/GitAliases/shortcut-aliases/branch
+    path = C:/Dan/GitAliases/shortcut-aliases/checkout
+    path = C:/Dan/GitAliases/shortcut-aliases/cherry-pick
+    path = C:/Dan/GitAliases/shortcut-aliases/clean
+    path = C:/Dan/GitAliases/shortcut-aliases/clone
+    path = C:/Dan/GitAliases/shortcut-aliases/commit
+    path = C:/Dan/GitAliases/shortcut-aliases/config
+    path = C:/Dan/GitAliases/shortcut-aliases/diff
+    path = C:/Dan/GitAliases/shortcut-aliases/fetch
+    path = C:/Dan/GitAliases/shortcut-aliases/help
+    path = C:/Dan/GitAliases/shortcut-aliases/init
+    path = C:/Dan/GitAliases/shortcut-aliases/lfs
+    path = C:/Dan/GitAliases/shortcut-aliases/log
+    path = C:/Dan/GitAliases/shortcut-aliases/merge
+    path = C:/Dan/GitAliases/shortcut-aliases/prune
+    path = C:/Dan/GitAliases/shortcut-aliases/pull
+    path = C:/Dan/GitAliases/shortcut-aliases/push
+    path = C:/Dan/GitAliases/shortcut-aliases/rebase
+    path = C:/Dan/GitAliases/shortcut-aliases/remote
+    path = C:/Dan/GitAliases/shortcut-aliases/reset
+    path = C:/Dan/GitAliases/shortcut-aliases/revert
+    path = C:/Dan/GitAliases/shortcut-aliases/rm
+    path = C:/Dan/GitAliases/shortcut-aliases/stash
+    path = C:/Dan/GitAliases/shortcut-aliases/status
+    path = C:/Dan/GitAliases/shortcut-aliases/tag
 
     # EXTENSION ALIASES
-    path = C:/Danware/GitAliases/extension-aliases/add-all-status
-    path = C:/Danware/GitAliases/extension-aliases/alias-config
-    path = C:/Danware/GitAliases/extension-aliases/checkout-push
-    path = C:/Danware/GitAliases/extension-aliases/close-pull-request
-    path = C:/Danware/GitAliases/extension-aliases/squash-commit
+    path = C:/Dan/GitAliases/extension-aliases/add-all-status
+    path = C:/Dan/GitAliases/extension-aliases/alias-config
+    path = C:/Dan/GitAliases/extension-aliases/checkout-push
+    path = C:/Dan/GitAliases/extension-aliases/close-pull-request
+    path = C:/Dan/GitAliases/extension-aliases/squash-commit
 ```
 
 ## Contributing
