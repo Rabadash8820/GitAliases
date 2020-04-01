@@ -11,3 +11,4 @@
   stski = stash save --keep-index
   stsnki = stash save --no-keep-index
   stsu = stash save --include-untracked
+  stsuki = stash save --keep-index --include-untracked
