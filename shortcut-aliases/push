@@ -4,10 +4,11 @@
   psd = push --delete
   psh = push -h
   psf = push --force
+  psfu = push --force --set-upstream
   psp = push --prune
   psq = push --quiet
   pst = push --tags
   psu = push --set-upstream
   psv = push --verbose
   psau = push --all --set-upstream
-  
+  psafu = push --all --force --set-upstream
