@@ -1,0 +1,2 @@
+[alias]
+  xbrfo = !"f() { git branch --force "$1" "origin/$1"; }; f"

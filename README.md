@@ -129,6 +129,7 @@ For reference, the following lines would include every alias file in this reposi
     # EXTENSION ALIASES
     path = C:/Dan/GitAliases/extension-aliases/add-all-status
     path = C:/Dan/GitAliases/extension-aliases/alias-config
+    path = C:/Dan/GitAliases/extension-aliases/branch-force-origin
     path = C:/Dan/GitAliases/extension-aliases/checkout-push
     path = C:/Dan/GitAliases/extension-aliases/close-pull-request
     path = C:/Dan/GitAliases/extension-aliases/squash-commit
