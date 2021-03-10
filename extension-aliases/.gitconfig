@@ -1,0 +1,7 @@
+[include]
+    path = add-all-status
+    path = alias-config
+    path = branch-force-origin
+    path = checkout-push
+    path = close-pull-request
+    path = squash-commit

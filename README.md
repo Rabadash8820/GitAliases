@@ -68,17 +68,17 @@ These aliases "extend" the basic Git commands with one more additional commands.
 
 ## Usage
 
-The easiest way to use these aliases is to add an `[include]` section to your system `gitconfig` file, located at "C:\Program Files\Git\mingw64\etc\gitconfig" on 64-bit Windows 7, 8, and 10 machines and /etc/gitconfig everywhere else.  The system `gitconfig` is preferable because the aliases will then be useable from every repo on your machine, which is almost always what you want.  Alternatively, you can add the `[include]` section to the global `.gitconfig` in your home directory, or even to a specific repo in its local .git/config file (if you are unfamiliar with Git configuration file locations or syntax, checkout the official [documentation](https://git-scm.com/docs/git-config#_configuration_file)).
+The easiest way to use these aliases is to add an `[include]` section to your system `gitconfig` file, located at "C:\Program Files\Git\mingw64\etc\gitconfig" on 64-bit Windows 7, 8, and 10 machines and /etc/gitconfig everywhere else. The system `gitconfig` is preferable because the aliases will then be useable from every repo on your machine, which is almost always what you want. Alternatively, you can add the `[include]` section to the global `.gitconfig` in your home directory, or even to a specific repo in its local `.git/config` file (if you are unfamiliar with Git configuration file locations or syntax, checkout the [official documentation](https://git-scm.com/docs/git-config#_configuration_file)).
 
 Whichever config file you choose to modify, add a line for each set of aliases that you want to include after the `[include]` line:
 
 ```ini
 [include]
-  path = C:/path/to/GitAliases/{aliases}
-  path = C:/path/to/GitAliases/{aliases}
+  path = C:/path/to/GitAliases/<alias>
+  path = C:/path/to/GitAliases/<alias>
 ```
 
-Replace `{aliases}` with the actual paths to the aliases in this repo that you want to include.  All paths must be absolute path, not relaive, and must use forward slashes ("/"), **even on Windows machines**.  All Shortcut Aliases are placed in the [shortcut-aliases](shortcut-aliases/) folder, and all Extension Aliases are placed in the [extension-aliases](extension-aliases/) folder.  Shortcut Alias files are named according to the command that they abbreviate, such as [add](shortcut-aliases/add), [commit](shortcut-aliases/commit), or [merge](shortcut-aliases/merge), and contain all the aliases for that command.  The Extension Alias files are more disparate, usually with only one alias per file.
+Replace `<alias>` with the actual path to an alias file in this repo that you want to include. Paths can be absolute or relative to the config file that you're modifying, and must use forward slashes ("/") **even on Windows machines**.  All Shortcut Aliases are placed in the [shortcut-aliases](shortcut-aliases/) folder, and all Extension Aliases are placed in the [extension-aliases](extension-aliases/) folder. Shortcut Alias files are named according to the command that they abbreviate, such as [add](shortcut-aliases/add), [commit](shortcut-aliases/commit), or [merge](shortcut-aliases/merge), and contain all the aliases for that command. The Extension Alias files are more spread out, usually with only one alias per file.
 
 For example, to include all `checkout` and `rebase` aliases, as well as the Extension Alias for rebasing after a `commit --squash`, you would add the following lines to your chosen Git config:
 
@@ -91,48 +91,12 @@ For example, to include all `checkout` and `rebase` aliases, as well as the Exte
 
 Remember, none of the Git aliases in this repository conflict, so you can use as many or as few of them as you like! Using `[include]` in this way, you can easily `[include]` these aliases in Git config files all over your file system. Moreover, whenever this repository is updated, you can just `git pull` the changes and have them take instant effect, without having to locate all your .gitconfigs and copy the updated aliases yourself.
 
-For reference, the following lines would include every alias file in this repository into your Git config. You can just paste this into your Git config, tweak the paths, and remove any lines that you don't want. (The absolute paths used here are mainly for my own benefit).
+If you simply want to include all of the aliases in this repo, then just paste the code below into your Git config and tweak the absolute paths (the paths shown here are mainly for my own benefit). Note that this may cause aliases to be unexpectedly added to your Git configuration the next time you pull from this repo, which could introduce conflicts with other Git aliases that you have defined personally.
 
 ```ini
 [include]
-    # SHORTCUT ALIASES
-    path = C:/Dan/GitAliases/shortcut-aliases/add
-    path = C:/Dan/GitAliases/shortcut-aliases/am
-    path = C:/Dan/GitAliases/shortcut-aliases/bisect
-    path = C:/Dan/GitAliases/shortcut-aliases/blame
-    path = C:/Dan/GitAliases/shortcut-aliases/branch
-    path = C:/Dan/GitAliases/shortcut-aliases/checkout
-    path = C:/Dan/GitAliases/shortcut-aliases/cherry-pick
-    path = C:/Dan/GitAliases/shortcut-aliases/clean
-    path = C:/Dan/GitAliases/shortcut-aliases/clone
-    path = C:/Dan/GitAliases/shortcut-aliases/commit
-    path = C:/Dan/GitAliases/shortcut-aliases/config
-    path = C:/Dan/GitAliases/shortcut-aliases/diff
-    path = C:/Dan/GitAliases/shortcut-aliases/fetch
-    path = C:/Dan/GitAliases/shortcut-aliases/help
-    path = C:/Dan/GitAliases/shortcut-aliases/init
-    path = C:/Dan/GitAliases/shortcut-aliases/lfs
-    path = C:/Dan/GitAliases/shortcut-aliases/log
-    path = C:/Dan/GitAliases/shortcut-aliases/merge
-    path = C:/Dan/GitAliases/shortcut-aliases/prune
-    path = C:/Dan/GitAliases/shortcut-aliases/pull
-    path = C:/Dan/GitAliases/shortcut-aliases/push
-    path = C:/Dan/GitAliases/shortcut-aliases/rebase
-    path = C:/Dan/GitAliases/shortcut-aliases/remote
-    path = C:/Dan/GitAliases/shortcut-aliases/reset
-    path = C:/Dan/GitAliases/shortcut-aliases/revert
-    path = C:/Dan/GitAliases/shortcut-aliases/rm
-    path = C:/Dan/GitAliases/shortcut-aliases/stash
-    path = C:/Dan/GitAliases/shortcut-aliases/status
-    path = C:/Dan/GitAliases/shortcut-aliases/tag
-
-    # EXTENSION ALIASES
-    path = C:/Dan/GitAliases/extension-aliases/add-all-status
-    path = C:/Dan/GitAliases/extension-aliases/alias-config
-    path = C:/Dan/GitAliases/extension-aliases/branch-force-origin
-    path = C:/Dan/GitAliases/extension-aliases/checkout-push
-    path = C:/Dan/GitAliases/extension-aliases/close-pull-request
-    path = C:/Dan/GitAliases/extension-aliases/squash-commit
+    path = C:/Dan/GitAliases/shortcut-aliases/.gitconfig
+    path = C:/Dan/GitAliases/extension-aliases/.gitconfig
 ```
 
 ## Contributing
