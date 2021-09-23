@@ -104,3 +104,6 @@ If you simply want to include all of the aliases in this repo, then just paste t
 ## Contributing
 
 If there are any aliases missing from this repository that you think should be added, please suggest them by opening an [Issue](https://github.com/DanwareCreations/GitAliases/issues/new?title=Add%20Alias%20For%20&lt;insert%20command%20here&gt;) or [Pull Request](https://github.com/Rabadash8820/GitAliases/pulls).
+
+## License
+[MIT](./LICENSE.txt)
