@@ -9,7 +9,9 @@
   rbq = rebase --quiet
   rbis = rebase --interactive --autostash
   rbs = rebase --autostash
-  rbsq = rebase --interactive --autosquash
-  rbsqs = rebase --interactive --autosquash --autostash
+  rbisq = rebase --interactive --autosquash
+  rbisqs = rebase --interactive --autosquash --autostash
+  rbsq = !GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git rebase --interactive --autosquash
+  rbsqs = !GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git rebase --interactive --autosquash --autostash
   rbv = rebase --verbose
   
