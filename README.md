@@ -56,7 +56,6 @@ These aliases simply abbreviate existing git commands/options to save some typin
   - `pla` -> `pull --all` (not to be confused with `plap` for `pull --append`)
   - `plr` -> `pull --rebase`
   - `rf` -> `reflog`
-  - `bl` -> `blame`
   - `cfg` -> `config --global`
 
 ### Extension Aliases
@@ -64,11 +63,14 @@ These aliases simply abbreviate existing git commands/options to save some typin
 These aliases "extend" the basic Git commands with one more additional commands.  They are meant to expedite common multi-command workflows, like pushing right after committing, checking out then pulling, staging all changes then running `status`, squash-committing then rebasing, etc.  Their names tend to be more cryptic, but generally follow this naming convention:
 
 - First letter is an "x" for "eXtended".  This prevents naming conflicts with other aliases, as there are no Git commands that start with an "x" (and hopefully never will be!)
-- Each letter thereafter corresponds to one of the commands or their options.  For example `git xaas` for `git add --all; git status`.  The command letters generally match those used in the Shortcut Aliases.  In some cases, for longer, multi-command Extension Aliases, the letters may be indicate the overall action being taken; for example `xmpr` is used to delete a local branch closed by a pull request on the remote and switch back to `master`, or `xdpr` to instead switch back to `dev`.
+- Each letter thereafter corresponds to one of the commands or their options.  For example `git xaas` for `git add --all && git status`.  The command letters generally match those used in the Shortcut Aliases.  In some cases, for longer, multi-command Extension Aliases, the letters may indicate the overall action being taken; for example `xmpr` is used to delete a local branch closed by a pull request on the remote and switch back to `master`, or `xdpr` to instead switch back to `dev`.
+- Within the config, multi-command aliases are joined by `&&` rather than `;`, so that you're less likely to get lots of confusing errors (or worse, corrupt your repo), if the first command in a multi-command workflow fails.
+
+Extension Aliases are the ones most likely to be subjective. That is, you may have no use for my Extension Aliases, you may need aliases for multicommand workflows that I have not provided, or you may just not like the alias naming that I used. I recommend that as you define additional git aliases for nontrivial workflows on your local machine, you make them Extension Aliases with the leading `x`. If you need additional aliases that are just single command invocations with one or more options, then you can use the naming conventions described for Shortcut Aliases without fear of naming conflicts (and I also encourage you to open a [Pull Request](https://github.com/Rabadash8820/GitAliases/pulls) for it here so that others know about it!).
 
 ## Usage
 
-The easiest way to use these aliases is to add an `[include]` section to your system `gitconfig` file, located at "C:\Program Files\Git\mingw64\etc\gitconfig" on 64-bit Windows 7, 8, and 10 machines and /etc/gitconfig everywhere else. The system `gitconfig` is preferable because the aliases will then be useable from every repo on your machine, which is almost always what you want. Alternatively, you can add the `[include]` section to the global `.gitconfig` in your home directory, or even to a specific repo in its local `.git/config` file (if you are unfamiliar with Git configuration file locations or syntax, checkout the [official documentation](https://git-scm.com/docs/git-config#_configuration_file)).
+The easiest way to use these aliases is to add an `[include]` section to your system `gitconfig` file, located at "C:\Program Files\Git\mingw64\etc\gitconfig" on 64-bit Windows 7, 8, and 10 machines and /etc/gitconfig everywhere else. The system `gitconfig` is preferable because the aliases will then be useable from every repo on your machine, for every user, which is almost always what you want. Alternatively, you can add the `[include]` section to the global `.gitconfig` in your home directory, or even to a specific repo in its local `.git/config` file (if you are unfamiliar with Git configuration file locations or syntax, checkout the [official documentation](https://git-scm.com/docs/git-config#_configuration_file)).
 
 Whichever config file you choose to modify, add a line for each set of aliases that you want to include after the `[include]` line:
 
@@ -91,7 +93,7 @@ For example, to include all `checkout` and `rebase` aliases, as well as the Exte
 
 Remember, none of the Git aliases in this repository conflict, so you can use as many or as few of them as you like! Using `[include]` in this way, you can easily `[include]` these aliases in Git config files all over your file system. Moreover, whenever this repository is updated, you can just `git pull` the changes and have them take instant effect, without having to locate all your .gitconfigs and copy the updated aliases yourself.
 
-If you simply want to include all of the aliases in this repo, then just paste the code below into your Git config and tweak the absolute paths (the paths shown here are mainly for my own benefit). Note that this may cause aliases to be unexpectedly added to your Git configuration the next time you pull from this repo, which could introduce conflicts with other Git aliases that you have defined personally.
+If you simply want to include all of the aliases in this repo, then just paste the code below into your Git config and tweak the absolute paths (the paths shown here are just for my personal setup). Note that this may cause aliases to be unexpectedly added to your Git configuration the next time you pull from this repo, which could introduce conflicts with other Git aliases that you have defined personally.
 
 ```ini
 [include]
@@ -101,4 +103,4 @@ If you simply want to include all of the aliases in this repo, then just paste t
 
 ## Contributing
 
-If there are any aliases missing from this repository that you think should be added, please suggest them by opening an [Issue](https://github.com/DanwareCreations/GitAliases/issues/new?title=Add%20Alias%20For%20&lt;insert%20command%20here&gt;).
+If there are any aliases missing from this repository that you think should be added, please suggest them by opening an [Issue](https://github.com/DanwareCreations/GitAliases/issues/new?title=Add%20Alias%20For%20&lt;insert%20command%20here&gt;) or [Pull Request](https://github.com/Rabadash8820/GitAliases/pulls).
