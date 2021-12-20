@@ -2,6 +2,7 @@
   a = add
   aa = add --all
   ah = add -h
+  ai = add --interactive
   ap = add --patch
   aq = add --quiet
   av = add --verbose
