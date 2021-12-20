@@ -2,15 +2,18 @@
   cm = commit
   cma = !"f() { git add --all && git commit $@; }; f"
   cmam = !"f() { git add --all && git commit --message $@; }; f"
+  cmams = !"f() { git add --all && git commit --message $@ --signoff; }; f"
   cmane = commit --amend --no-edit
   cmaane = !"f() { git add --all && git commit --amend --no-edit $@; }; f"
   cmasq = !"f() { git add --all && git commit --no-edit --squash $@; }; f"
   cmh = commit -h
   cmi = commit --include
   cmm = commit --message
+  cmms = commit --message --signoff
   cmo = commit --only
   cmp = commit --patch
   cmq = commit --quiet
+  cms = commit --signoff
   cmsq = commit --no-edit --squash
   cmv = commit --verbose
   
