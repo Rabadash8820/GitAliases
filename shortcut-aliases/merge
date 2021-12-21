@@ -3,7 +3,6 @@
   ma = merge --abort
   mc = merge --continue
   mcne = !GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git merge --continue
-  md = merge dev
   me = merge --edit
   mff = merge --ff
   mffo = merge --ff-only

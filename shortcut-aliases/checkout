@@ -1,7 +1,6 @@
 [alias]
   ch = checkout
   chb = checkout -b
-  chd = checkout dev
   chf = checkout --force
   chh = checkout -h
   chm = checkout master
