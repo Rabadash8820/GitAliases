@@ -10,6 +10,8 @@
   cmi = commit --include
   cmm = commit --message
   cmms = commit --message --signoff
+  cmne = commit --no-edit
+  cmnes = commit --no-edit --signoff
   cmo = commit --only
   cmp = commit --patch
   cmq = commit --quiet
