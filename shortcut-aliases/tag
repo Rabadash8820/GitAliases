@@ -1,4 +1,5 @@
 [alias]
+  t = tag
   ta = tag --annotate
   tam = !"f() { git tag --annotate $1 --message \"$2\"; }; f"
   td = tag --delete
