@@ -1,0 +1,20 @@
+[alias]
+  wt = worktree
+  wta = worktree add
+  wtaq = worktree add --quiet
+  wtab = worktree add -b
+  wtabq = worktree add -b --quiet
+  wtad = worktree add --detach
+  wtadq = worktree add --detach --quiet
+  wtlk = worktree lock
+  wtlkr = worktree lock --reason
+  wtls = worktree list
+  wtlsv = worktree list --verbose
+  wtm = worktree move
+  wtp = worktree prune
+  wtpn = worktree prune --dry-run
+  wtpnv = worktree prune --dry-run --verbose
+  wtpv = worktree prune --verbose
+  wtr = worktree remove
+  wtrf = worktree remove --force
+  wtu = worktree unlock

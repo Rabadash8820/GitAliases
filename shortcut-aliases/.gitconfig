@@ -28,3 +28,4 @@
     path = stash
     path = status
     path = tag
+    path = worktree
