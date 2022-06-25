@@ -1,6 +1,7 @@
 [alias]
   f = fetch
   fa = fetch --all
+  fap = fetch --all --prune
   fh = fetch -h
   fp = fetch --prune
   fq = fetch --quiet
