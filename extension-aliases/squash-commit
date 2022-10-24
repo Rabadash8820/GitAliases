@@ -1,6 +1,6 @@
 [alias]
-  xisq = !"f() { commit=$(git rev-parse $1) && git commit --no-edit --squash $commit && git rebase -i --autosquash --autostash $commit^; }; f"
-  xaisq = !"f() { commit=$(git rev-parse $1) && git add --all && git commit --no-edit --squash $commit && git rebase -i --autosquash --autostash $commit^; }; f"
+  xisq = !"f() { commit=$(git rev-parse $1) && git commit --no-edit --squash $commit && git rebase -i --autosquash --autostash --committer-date-is-author-date $commit^; }; f"
+  xaisq = !"f() { commit=$(git rev-parse $1) && git add --all && git commit --no-edit --squash $commit && git rebase -i --autosquash --autostash --committer-date-is-author-date $commit^; }; f"
 
-  xsq = !"f() { commit=$(git rev-parse $1) && git commit --no-edit --squash $commit && GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git rebase -i --autosquash --autostash $commit^; }; f"
-  xasq = !"f() { commit=$(git rev-parse $1) && git add --all && git commit --no-edit --squash $commit && GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git rebase -i --autosquash --autostash $commit^; }; f"
+  xsq = !"f() { commit=$(git rev-parse $1) && git commit --no-edit --squash $commit && GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git rebase -i --autosquash --autostash --committer-date-is-author-date $commit^; }; f"
+  xasq = !"f() { commit=$(git rev-parse $1) && git add --all && git commit --no-edit --squash $commit && GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git rebase -i --autosquash --autostash --committer-date-is-author-date $commit^; }; f"

@@ -2,16 +2,14 @@
   rb = rebase
   rba = rebase --abort
   rbc = rebase --continue
-  rbdate = rebase --committer-date-is-author-date
   rbet = rebase --edit-todo
   rbh = rebase -h
-  rbi = rebase --interactive
+  rbi = rebase --interactive --committer-date-is-author-date
   rbq = rebase --quiet
-  rbis = rebase --interactive --autostash
-  rbs = rebase --autostash
-  rbisq = rebase --interactive --autosquash
-  rbisqs = rebase --interactive --autosquash --autostash
-  rbsq = !GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git rebase --interactive --autosquash
-  rbsqs = !GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git rebase --interactive --autosquash --autostash
+  rbis = rebase --interactive --autostash --committer-date-is-author-date
+  rbs = rebase --autostash --committer-date-is-author-date
+  rbisq = rebase --interactive --autosquash --committer-date-is-author-date
+  rbisqs = rebase --interactive --autosquash --autostash --committer-date-is-author-date
+  rbsq = !GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git rebase --interactive --autosquash --committer-date-is-author-date
+  rbsqs = !GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git rebase --interactive --autosquash --autostash --committer-date-is-author-date
   rbv = rebase --verbose
-  
