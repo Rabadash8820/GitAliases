@@ -4,6 +4,7 @@
   psd = push --delete
   psh = push -h
   psf = push --force
+  psfp = push --force --prune
   psfu = push --force --set-upstream
   psp = push --prune
   psq = push --quiet
