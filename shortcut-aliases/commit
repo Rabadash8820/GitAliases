@@ -8,6 +8,7 @@
   cmasq = !"f() { git add --all && git commit --no-edit --squash \"$@\"; }; f"
   cmh = commit -h
   cmi = commit --include
+  cmf = commit --fixup
   cmm = commit --message
   cmms = commit --message --signoff
   cmne = commit --no-edit
