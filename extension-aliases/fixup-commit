@@ -1,0 +1,6 @@
+[alias]
+  xifix = !"f() { commit=$(git rev-parse $1) && git commit --no-edit --fixup $commit && git rebase -i --autosquash --autostash --committer-date-is-author-date $commit^; }; f"
+  xaifix = !"f() { commit=$(git rev-parse $1) && git add --all && git commit --no-edit --fixup $commit && git rebase -i --autosquash --autostash --committer-date-is-author-date $commit^; }; f"
+
+  xfix = !"f() { commit=$(git rev-parse $1) && git commit --no-edit --fixup $commit && GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git rebase -i --autosquash --autostash --committer-date-is-author-date $commit^; }; f"
+  xfix = !"f() { commit=$(git rev-parse $1) && git add --all && git commit --no-edit --fixup $commit && GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git rebase -i --autosquash --autostash --committer-date-is-author-date $commit^; }; f"
