@@ -4,6 +4,7 @@
   brc = branch --copy
   brC = branch -C
   brd = branch --delete
+  brdf = branch --delete --force
   brD = branch -D
   brf = branch --force
   brh = branch -h
