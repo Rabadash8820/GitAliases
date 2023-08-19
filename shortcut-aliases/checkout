@@ -3,7 +3,7 @@
   chb = checkout -b
   chf = checkout --force
   chh = checkout -h
-  chm = checkout master
+  chm = checkout main
   cho = checkout --orphan
   chq = checkout --quiet
   cht = checkout --track

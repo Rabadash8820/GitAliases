@@ -8,7 +8,7 @@
   mffo = merge --ff-only
   mgs = merge --gpg-sign
   mh = merge -h
-  mm = merge master
+  mm = merge main
   mmne = !GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git merge master
   mmnenf = !GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git merge master --no-ff
   mnenf = !GIT_SEQUENCE_EDITOR=true GIT_EDITOR=true git merge --no-ff
