@@ -1,0 +1,9 @@
+[alias]
+  sw = switch
+  swc = switch --create
+  swc = switch --detach
+  swf = switch --force
+  swh = switch -h
+  swm = switch --merge
+  swq = switch --quiet
+  swt = switch --track
