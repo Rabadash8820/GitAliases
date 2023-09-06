@@ -4,4 +4,4 @@
     path = branch-force-origin
     path = checkout-push
     path = close-pull-request
-    path = squash-commit
+    path = fixup-commit
