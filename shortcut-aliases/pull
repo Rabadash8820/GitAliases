@@ -1,6 +1,10 @@
 [alias]
   pl = pull
   pla = pull --all
+  plap = pull --all --prune
+  plapr = pull --all --prune --rebase=true
+  plaps = pull --all --prune --rebase=true --autostash
+  plf = pull --force
   plh = pull -h
   plp = pull --prune
   plpr = pull --prune --rebase=true
