@@ -6,6 +6,7 @@
   wtabq = worktree add -b --quiet
   wtad = worktree add --detach
   wtadq = worktree add --detach --quiet
+  wth = worktree -h
   wtlk = worktree lock
   wtlkr = worktree lock --reason
   wtls = worktree list
