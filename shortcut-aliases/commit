@@ -1,6 +1,7 @@
 [alias]
   cm = commit
   cma = !"f() { git add --all && git commit \"$@\"; }; f"
+  cmaf = !"f() { git add --all && git commit --fixup \"$@\"; }; f"
   cmam = !"f() { git add --all && git commit --message \"$@\"; }; f"
   cmams = !"f() { git add --all && git commit --message \"$@\" --signoff; }; f"
   cmane = commit --amend --no-edit
