@@ -2,29 +2,74 @@
   cf = config
   cfh = config -h
 
-  # Local aliases
-  cfl = config --local
-  cfla = config --local --add
-  cfle = config --local --edit
-  cfll = config --local --list
-  cflg = config --local --get
-  cflr = !"f() { git config --local --get-regexp $1 | sed 's|'$1'.||'; }; f"
-  cflua = config --local --unset
+  # Local scope aliases
+  cfll = config list --local
+  cflg = config get --local
+  cflga = config get --local --all
+  cflgai = config get --local --all --includes
+  cflgar = config get --local --all --regexp
+  cflgair = config get --local --all --includes --regexp
+  cflgi = config get --local --includes
+  cflgir = config get --local --includes --regexp
+  cflgr = config get --local --regexp
+  cfls = config set --local
+  cflsa = config set --local --all
+  cflu = config unset --local
+  cflua = config unset --local --all
+  cflns = config rename-section --local
+  cflms = config remove-section --local
+  cfle = config edit --local
 
-  # Global aliases
-  cfg = config --global
-  cfga = config --global --add
-  cfge = config --global --edit
-  cfgl = config --global --list
-  cfgg = config --global --get
-  cfgr = !"f() { git config --global --get-regexp $1 | sed 's|'$1'.||'; }; f"
-  cfgu = config --global --unset
+  # Global scope aliases
+  cfgl = config list --global
+  cfgg = config get --global
+  cfgga = config get --global --all
+  cfggai = config get --global --all --includes
+  cfggar = config get --global --all --regexp
+  cfggair = config get --global --all --includes --regexp
+  cfggi = config get --global --includes
+  cfggir = config get --global --includes --regexp
+  cfggr = config get --global --regexp
+  cfgs = config set --global
+  cfgsa = config set --global --all
+  cfgu = config unset --global
+  cfgua = config unset --global --all
+  cfgns = config rename-section --global
+  cfgms = config remove-section --global
+  cfge = config edit --global
 
-  # System aliases
-  cfs = config --system
-  cfsa = config --system --add
-  cfse = config --system --edit
-  cfsl = config --system --list
-  cfsg = config --system --get
-  cfsr = !"f() { git config --system --get-regexp $1 | sed 's|'$1'.||'; }; f"
-  cfsu = config --system --unset
+  # System scope aliases
+  cfsl = config list --system
+  cfsg = config get --system
+  cfsga = config get --system --all
+  cfsgai = config get --system --all --includes
+  cfsgar = config get --system --all --regexp
+  cfsgair = config get --system --all --includes --regexp
+  cfsgi = config get --system --includes
+  cfsgir = config get --system --includes --regexp
+  cfsgr = config get --system --regexp
+  cfss = config set --system
+  cfssa = config set --system --all
+  cfsu = config unset --system
+  cfsua = config unset --system --all
+  cfsns = config rename-section --system
+  cfsms = config remove-section --system
+  cfse = config edit --system
+
+  # Worktree scope aliases
+  cfwl = config list --worktree
+  cfwg = config get --worktree
+  cfwga = config get --worktree --all
+  cfwgai = config get --worktree --all --includes
+  cfwgar = config get --worktree --all --regexp
+  cfwgair = config get --worktree --all --includes --regexp
+  cfwgi = config get --worktree --includes
+  cfwgir = config get --worktree --includes --regexp
+  cfwgr = config get --worktree --regexp
+  cfws = config set --worktree
+  cfwsa = config set --worktree --all
+  cfwu = config unset --worktree
+  cfwua = config unset --worktree --all
+  cfwns = config rename-section --worktree
+  cfwms = config remove-section --worktree
+  cfwe = config edit --worktree
